@@ -148,5 +148,5 @@ def predict_image(image_path):
     result = class_names[pred.item()]
     print(f"Prediction: {result} ({prob:.2f}% confidence)")
     return result
-OUTPUT :
+# OUTPUT :
 <img width="741" height="718" alt="image" src="https://github.com/user-attachments/assets/09e288b1-d915-43cc-a10e-c96fd1ab1f0d" />
